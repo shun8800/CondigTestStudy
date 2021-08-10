@@ -19,6 +19,7 @@ for x in range(1, 10):
 print(result)
 '''
 
+'''
 scores = [90, 52, 34, 14, 62]
 cheating = {2, 4}
 
@@ -27,3 +28,11 @@ for i in range(5):
         continue # 조건문에 해당되면 뛰어넘기
     if scores[i]>=20:
         print(i+1, "번 학생 합격")
+'''
+
+data = list(map(int, input().split()))
+data.sort()
+print(data)
+
+for i in data:
+    print("hello")
